@@ -1,0 +1,112 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+
+header{ background-color: orange;
+    margin: 0;
+
+   
+}
+
+
+
+footer{
+    text-align: center;
+    padding: 50px;
+    background-color: burlywood;
+    margin-top: 50px;
+    
+}
+
+
+
+footer a {
+    margin: 40px;
+    color:bisque;
+}
+
+footer a:hover{
+    color: indianred;
+   font-size: 17px;
+   box-sizing: border-box;
+   
+}
+
+
+h1 {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: darkgoldenrod ;
+    text-align: center;
+    text-decoration: underline;
+    margin: 0 ;
+
+}
+
+
+p {
+    margin: 0;
+}
+
+
+
+h2 {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: darkgoldenrod;
+
+    text-align: center;
+
+
+}
+
+
+
+
+input{
+    background-color: bisque;
+  height: 3vh;
+  border: none;
+  outline: none;
+  color: rgb(91, 105, 48);
+  font-size: 14px;
+  font-family: "Roboto Mono", monospace;
+  transition: 0.5s;
+  border-radius: 15px;
+  border-bottom: 2px solid rgba(134, 141, 69, 0.411);
+  box-sizing: border-box;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+input:hover{
+border-bottom: 3.5px solid rgb(134, 141, 69) ;
+   
+}
+
+
+textarea{
+    background-color: rgb(230, 207, 179);
+    resize: none;
+    border: none;
+  outline: none;
+  font-size: 14px;
+  border-radius:15px;
+  border-bottom: 2px solid rgba(134, 141, 69, 0.411);
+  box-sizing: border-box;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+input:hover{
+    border-bottom: 3.5px solid rgb(134, 141, 69) ;
+}
+
+
+.boton{
+    background-color: rgb(230, 207, 179);
+}
+
+.boton:hover{
+    transform: scale(1.2);
+}
