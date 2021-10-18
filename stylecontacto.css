@@ -25,23 +25,34 @@ footer{
 
 
 footer a {
-    margin: 40px;
-    color:bisque;
+    color: antiquewhite;
+    padding: 8vh 5vh;
+   width: 100%;
+   height: 100%;
+   font-family: taco ;
 }
 
 footer a:hover{
     color: indianred;
-   font-size: 17px;
+    padding: 8vh 5vh;
+    width: 100%;
+    height: 100%;
    box-sizing: border-box;
    
 }
 
+@font-face {
+    font-family: taco;
+    src: url(/font-face/Taco\ Tuesday.otf);
+}
 
-h1 {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: darkgoldenrod ;
+h1 {
+    font-family: taco ;
+    font-size: 3em;
+     color: rgb(134, 102, 20) ;
     text-align: center;
     text-decoration: underline;
     margin: 0 ;
-
 }
 
 
@@ -70,8 +81,8 @@ input{
   font-size: 14px;
   font-family: "Roboto Mono", monospace;
   transition: 0.5s;
-  border-radius: 15px;
-  border-bottom: 2px solid rgba(134, 141, 69, 0.411);
+  border-radius: 3em;
+  border-bottom: 0.3em solid rgba(134, 141, 69, 0.411);
   box-sizing: border-box;
   text-align: center;
   display: block;
@@ -79,7 +90,7 @@ input{
 }
 
 input:hover{
-border-bottom: 3.5px solid rgb(134, 141, 69) ;
+border-bottom: 0.3em solid rgb(134, 141, 69) ;
    
 }
 
@@ -89,8 +100,8 @@ textarea{
     resize: none;
     border: none;
   outline: none;
-  font-size: 14px;
-  border-radius:15px;
+  font-size: 1em;
+  border-radius: 1em;
   border-bottom: 2px solid rgba(134, 141, 69, 0.411);
   box-sizing: border-box;
   text-align: center;
@@ -99,7 +110,7 @@ textarea{
 }
 
 input:hover{
-    border-bottom: 3.5px solid rgb(134, 141, 69) ;
+    border-bottom: 0.3em solid rgb(134, 141, 69) ;
 }
 
 
