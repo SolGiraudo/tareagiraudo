@@ -3,7 +3,7 @@ html, body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: bisque;
+    background-color:#ebe1c0 ;
 }
 
 @font-face {
@@ -11,123 +11,169 @@ html, body {
     src: url(/font-face/Taco\ Tuesday.otf);
 }
 
+header{
+    background-color: #f2d982;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 
-h1 { 
+}
 
+.htitulo{
     font-family: taco ;
-    font-size: 3em;
-     color: rgb(134, 102, 20) ;
+    font-size: 2em;
+    color: #310b0a ;
     text-align: center;
     text-decoration: underline;
     margin: 0 ;
+    display: flex;
+    justify-content: center;
+    line-height: 0.3rem;
+}
+
+.hparrafo{
+    display: flex;
+    justify-content: center;
+    font-family: taco ;
+    text-decoration: underline;
 
 }
 
 
-header{ background-color: orange;
+ nav {
+    display: flex;
+    width: 100%;
     margin: 0;
+    padding: 0;
+ }
 
-   
-}
-
-nav{
+nav ul {
+    display: flex;
+    width: 100%;
     margin: 0;
-    width: 100vw;
+    padding: 0;
 }
 
+nav li {
+    display: flex;
+    background-color: #310b0a;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    padding: 0.5em;
+    color: #ebe1c0;
+    transition: 0.3s;
+    font-family: taco ;
+}
 
-section h2 
-{ 
+nav a{
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    height: 100;
+    flex-grow: 1;
+}
 
- color: darkgoldenrod;
+nav a:visited {
+    color: #fff
+}
 
+nav li:hover{
+    background-color: #887673;
+    transform: scale(1.1);
+    border-radius: 15px;
+}
+
+.shead {
+    width: 100%;
+    background-color: #ebe1c0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.stitulo{
+    display: flex;
+    height: 10%;
+    margin: 0;
+    padding: 0;
+    margin-top: 0%;
+    color:  #310b0a ;
     text-align: center;
     font-size: 3.5em;
     font-family: 'Are You Serious', cursive;
-
-
-}
-
-ul {
-background-color: burlywood;
-font-size: larger;
-margin: 0;
-}
-
-
-
-
-h3{
-   background-color: burlywood
-}
-
-
-img {
-    width:35%;
-    margin-left: 35%;
-}
-
-nav  li {
-    display: inline-block;
-    padding: 8vh 3.5vh;
-    width: 15%;
     
 }
 
-
-nav ul li a:hover{
-    background-color: chocolate;
-    padding: 8vh 5vh;
-
+.sfoto {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-image: url(imagenes/tacos.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 10%;
 }
 
-a {
-    color: antiquewhite;
-    padding:8vh 5vh;
-   width: 100%;
-   height: 100%;
-   font-family: taco ;
-   font-size: 3vh;
+
+
+
+
+.icontainer {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.recetas{ 
-    text-align: center;
+.ingredientes1 {
     padding: 0;
-    background-color: antiquewhite;
-    margin: 0px;
+    width: 45%;
+    border: 5px solid #310b0a;
+    border-radius: 2vh;
+    font-size: 2.6vh;
 }
 
-aside{
-    float: right;
-    width: 50%;
-    display: inline-block;
-    height: 70vh;
+.ingredientes2 {
+    padding: 0;
+    width: 45%;
+    border: 5px solid #310b0a;
+    border-radius: 2vh;
+    font-size: 2.6vh;
+}
+
+h3{
     background-color: burlywood;
-
-}
-
-
-
-
-section div{
-    width: 50%;
-    display: inline-block;
-    height: 70vh;
-    background-color: burlywood;
-}
-
-
-footer{
     text-align: center;
-    padding: 50px;
-    background-color: burlywood;
-    height: 5vh ;
-    margin: 0;
+    padding: 10px;
+    margin-top: 0;
+    border-top-left-radius: 1vh;
+    border-top-right-radius: 1vh;
+ }
+
+.video {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-footer a {
-    margin: 40px;
+.video h3 {
+    width: 20%;
+    
 }
+
+.video article {
+    margin-top: 2%;
+}
+
+
 
 iframe{
    height: 320px;
@@ -135,11 +181,62 @@ iframe{
 }
 
 .wsp{
-    color:greenyellow;
+    color:#f2d982;
+    padding: 0.5vh;
     font-size: 50px;
     position: fixed;
     bottom: 0;
-    right: 0;}
+    right: 0;
+    background-color: #310b0a;
+    border-radius: 0.5vh;
+    transition: 0.3s;
+}
 
+.wsp:hover{
+    transform: scale(1.1);
+}
 
-    
+footer {
+    width: 100%;
+    height: 15vh;
+    background-color: #310b0a;
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+}
+
+.facebook {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.ig {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.mail {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+}
+
+footer a {
+    display: flex;
+    text-decoration: none;
+    color: #f2d982;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    background-color: #582b2a;
+}
